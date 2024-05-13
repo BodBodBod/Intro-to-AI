@@ -1,0 +1,84 @@
+customers:customer_id, first_name, last_name, email
+orders:order_id, customer_id, order_date, total_amount
+products:product_id, product_name, price, quantity
+courier_info:courier_id, first_name, last_name, phone_number, delivery_type
+delivery_list:delivery_id, order_id, courier_id, order_date, date_arrived, taken, payment_method
+employees:employee_id, first_name, last_name, position, salary
+projects:project_id, project_name, start_date, end_date, budget
+inventory:item_id, item_name, quantity_in_stock, price_per_unit
+transactions:transaction_id, customer_id, date, total_amount, payment_method
+shipments:shipment_id, order_id, courier_id, destination_address, delivery_date
+books:book_id, title, author, genre, publication_year, price
+students:student_id, first_name, last_name, grade_level, parent_contact
+concerts:concert_id, artist_name, venue, date, ticket_price
+prescriptions:prescription_id, patient_id, doctor_id, medication_name, dosage
+flights:flight_id, airline, departure_airport, arrival_airport, departure_time, arrival_time
+hotels:hotel_id, hotel_name, location, rating, price_per_night
+recipes:recipe_id, recipe_name, chef_id, ingredients_list, instructions
+cars:car_id, make, model, year, mileage, price
+concerts_tickets:ticket_id, concert_id, seat_number, price, purchase_date
+hospitals:hospital_id, hospital_name, location, capacity, rating
+employees_payroll:payroll_id, employee_id, salary, tax_deduction, payment_date
+universities:university_id, university_name, location, ranking, tuition_fee
+movies:movie_id, title, director, genre, release_year, duration
+apartments:apartment_id, location, number_of_rooms, rent_price, landlord_contact
+fitness_classes:class_id, class_name, instructor_id, schedule, location, duration
+recipes:recipe_id, recipe_name, chef_id, ingredients_list, instructions
+cars:car_id, make, model, year, mileage, price
+concerts_tickets:ticket_id, concert_id, seat_number, price, purchase_date
+hospitals:hospital_id, hospital_name, location, capacity, rating
+employees_payroll:payroll_id, employee_id, salary, tax_deduction, payment_date
+universities:university_id, university_name, location, ranking, tuition_fee
+movies:movie_id, title, director, genre, release_year, duration
+apartments:apartment_id, location, number_of_rooms, rent_price, landlord_contact
+fitness_classes:class_id, class_name, instructor_id, schedule, location, duration
+cafes:cafe_id, cafe_name, location, capacity, opening_hours
+concerts_attendees:attendance_id, concert_id, attendee_name, ticket_type, ticket_price
+doctors:doctor_id, doctor_name, specialization, clinic_location, years_of_experience
+insurance_plans:plan_id, plan_name, coverage_details, premium_amount, deductible
+art_galleries:gallery_id, gallery_name, location, opening_date, curator_name
+music_albums:album_id, album_title, artist_name, release_date, genre, price
+hiking_trails:trail_id, trail_name, location, difficulty_level, length, scenic_rating
+fashion_brands:brand_id, brand_name, founder_name, headquarters_location, year_founded
+sports_teams:team_id, team_name, sport_type, coach_name, home_stadium
+bank_accounts:account_id, account_holder_name, account_type, balance, interest_rate
+cafes_customers:customer_id, cafe_id, customer_name, visit_date, total_spent
+concerts_reviews:review_id, concert_id, reviewer_name, review_text, rating
+architects:architect_id, architect_name, specialty, firm_name, years_in_practice
+insurance_claims:claim_id, policy_holder_name, claim_date, claim_description, claim_amount
+art_exhibitions:exhibition_id, exhibition_name, gallery_id, start_date, end_date
+music_artists:artist_id, artist_name, genre, debut_year, latest_album
+camping_sites:site_id, site_name, location, facilities, reservation_fee
+tech_gadgets:gadget_id, gadget_name, manufacturer, release_date, price
+schools:school_id, school_name, location, principal_name, student_count
+charity_events:event_id, event_name, organizer_name, location, date, donation_goal
+cafes_menu_items:item_id, cafe_id, item_name, description, price
+job_applicants:applicant_id, applicant_name, desired_position, resume, application_date
+rental_properties:property_id, property_name, location, type, rent_amount, landlord_name
+zoo_animals:animal_id, animal_name, species, age, enclosure_number
+software_applications:app_id, app_name, developer_name, release_date, version
+national_parks:park_id, park_name, location, size, visitor_center_name
+vineyards:vineyard_id, vineyard_name, location, grape_varieties, annual_production
+medical_clinics:clinic_id, clinic_name, location, services_offered, doctor_count
+home_appliances:appliance_id, appliance_name, brand, purchase_date, warranty_expiration
+fashion_designers:designer_id, designer_name, brand_name, fashion_style, years_active
+coffee_roasters:roaster_id, roaster_name, location, roast_type, coffee_varieties
+film_festivals:festival_id, festival_name, location, date, participating_films
+construction_projects:project_id, project_name, location, start_date, end_date, budget
+fitness_equipment:equipment_id, equipment_name, manufacturer, type, price
+pet_shelters:shelter_id, shelter_name, location, available_pets, adoption_fee
+software_companies:company_id, company_name, location, CEO_name, product_line
+historical_sites:site_id, site_name, location, historical_period, significance
+food_delivery_services:service_id, service_name, location, delivery_area, delivery_fee
+vineyard_wines:wine_id, wine_name, vineyard_id, vintage_year, price_per_bottle
+wedding_planners:planner_id, planner_name, company_name, location, services_offered
+amusement_parks:park_id, park_name, location, attractions, ticket_price
+language_schools:school_id, school_name, location, language_courses, tuition_fee
+theater_plays:play_id, play_name, theater_name, playwright_name, performance_date
+car_rental_agencies:agency_id, agency_name, location, available_cars, rental_price
+eco_tours:tour_id, tour_name, location, duration, environmental_focus
+art_schools:school_id, school_name, location, courses_offered, instructor_names
+fashion_boutiques:boutique_id, boutique_name, location, clothing_brands, price_range
+sports_leagues:league_id, league_name, sport_type, season_start_date, season_end_date
+tech_startups:startup_id, startup_name, location, founders_names, product_description
+gardening_centers:center_id, center_name, location, plant_varieties, gardening_services
